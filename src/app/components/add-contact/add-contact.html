@@ -1,19 +1,65 @@
 <div class="row">
     <div class="col-md-4 col-sm-6 col-12">
-        <form action="">
+        <form #form="ngForm" (ngSubmit)="addContact()">
             <div class="mb-2">
                 <label for="name" class="form-label">Prénom(*)</label>
-                <input type="text" name="name" id="name" required placeholder="Écris votre prénom" class="form-control">
+                <input type="text" name="name" id="name" required placeholder="Écris votre prénom"
+                    [(ngModel)]="contact.name" class="form-control" #name="ngModel" [ngClass]="{
+                        'is-valid': name.dirty && !name.errors,
+                        'is-invalid': name.dirty && name.errors}">
+                <div class="valid-feedback">
+                    <span>correct</span>
+                </div>
+                <div class="invalid-feedback">
+                    @if (name.errors) {
+                    @if (name.errors['required']) {
+                    <span>valeur requise</span>
+                    }
+                    }
+                </div>
             </div>
             <div class="mb-2">
                 <label for="surname" class="form-label">Nom(*)</label>
                 <input type="text" name="surname" id="surname" required placeholder="Écris votre nom de famille"
-                    class="form-control">
+                    [(ngModel)]="contact.surname" class="form-control" #surname="ngModel" [ngClass]="{
+                        'is-valid': surname.dirty && !surname.errors,
+                        'is-invalid': surname.dirty && surname.errors}">
+                <div class="valid-feedback">
+                    <span>correct</span>
+                </div>
+                <div class="invalid-feedback">
+                    @if (surname.errors) {
+                    @if (surname.errors['required']) {
+                    <span>valeur requise</span>
+                    }
+                    }
+                </div>
             </div>
             <div class="mb-2">
                 <label for="telephone" class="form-label">Téléphone(*)</label>
-                <input type="text" name="telephone" id="telephone" required placeholder="Écris votre nom de famille"
-                    class="form-control">
+                <input type="text" name="telephone" id="telephone"
+                    pattern="^((\+\d\d)? ?)?(\d\d\d) ?(\d\d) ?(\d\d) ?(\d\d)$" required
+                    placeholder="Écris votre numéro téléphone" [(ngModel)]="contact.telephone" class="form-control"
+                    #telephone="ngModel" [ngClass]="{
+                        'is-valid': telephone.dirty && !telephone.errors,
+                        'is-invalid': telephone.dirty && telephone.errors}">
+                <div class="valid-feedback">
+                    <span>correct</span>
+                </div>
+                <div class="invalid-feedback">
+                    @if (telephone.errors) {
+                    @if (telephone.errors['required']) {
+                    <span>valeur requise</span>
+                    }
+                    @if (telephone.errors['pattern']) {
+                    <span>mauvais format</span>
+                    }
+                    }
+                </div>
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-primary" type="submit"
+                [disabled]="form.invalid">ajouter un contact</button>
             </div>
         </form>
     </div>
