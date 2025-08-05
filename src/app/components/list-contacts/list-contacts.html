@@ -1,1 +1,10 @@
-<p>list-contacts works!</p>
+<div class="card">
+    @for (contact of lisContacts; track contact) {
+    <div class="card-body">
+        <h5 class="card-title">{{contact.surname + ", "+ contact.name}}</h5>
+        <p class="card-text">{{contact.telephone}}</p>
+        <a class="btn btn-danger"> <i class="bi  bi-trash">
+                éliminer</i></a>
+    </div>
+}
+</div>

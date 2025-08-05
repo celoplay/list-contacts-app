@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { IContact } from '../../models/contact.model';
 import { FormsModule, NgForm } from '@angular/forms';
 import { NgClass } from '@angular/common';
+import { ContactService } from '../../services/contact';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-contact',
@@ -11,6 +13,8 @@ import { NgClass } from '@angular/common';
 })
 export class AddContact {
 
+  private contactService: ContactService = inject(ContactService);
+  private router = inject(Router); 
   public contact: IContact = {
     name: '',
     surname: '',
@@ -18,6 +22,9 @@ export class AddContact {
   };
 
   addContact(){
-    console.log(this.contact);
+    //console.log(this.contact);
+    const contact = Object.assign({},this.contact);
+    this.contactService.addContact(this.contact);
+    this.router.navigateByUrl('list-contacts');
   }
 }
