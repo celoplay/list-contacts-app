@@ -1,10 +1,13 @@
 <div class="card">
-    @for (contact of lisContacts; track contact) {
+    @for (contact of lisContacts; track contact; let index = $index) {
     <div class="card-body">
-        <h5 class="card-title">{{contact.surname + ", "+ contact.name}}</h5>
+        <h5 class="card-title">{{contact.surname + ", "+ contact.name|titlecase}}</h5>
         <p class="card-text">{{contact.telephone}}</p>
-        <a class="btn btn-danger"> <i class="bi  bi-trash">
+        <a class="btn btn-danger" (click)="deleteContact(index)"> <i class="bi  bi-trash">
                 éliminer</i></a>
     </div>
-}
+    }@empty {
+    <div class="col-12">
+        Aucun contact ajouté</div>
+    }
 </div>

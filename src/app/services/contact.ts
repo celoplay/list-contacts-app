@@ -5,10 +5,15 @@ import { IContact } from '../models/contact.model';
   providedIn: 'root'
 })
 export class ContactService {
+  [x: string]: any;
   
   public lisContacts: IContact[] = [];
 
   addContact(contact:IContact){
     this.lisContacts.push(contact);
+  };
+
+    deleteContact(index:number){
+    this.lisContacts.splice(index,1);
   };
 }
