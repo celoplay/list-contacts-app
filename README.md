@@ -13,17 +13,20 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
 - Búsqueda por nombre
 - Validaciones básicas de formulario
 
-##🧰 Tecnologías
+
+## 🧰 Tecnologías
 
 - Angular, TypeScript
 - HTML, CSS
 - Git
 
-##📦 Requisitos
+
+## 📦 Requisitos
 - Node 18+ (recomendado)
 - Angular
+
   
-##▶️ Ejecución local
+## ▶️ Ejecución local
 
 git clone https://github.com/celoplay/list-contacts-app
 
