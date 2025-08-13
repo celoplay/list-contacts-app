@@ -50,6 +50,7 @@ src/
 
  
 🧠 Qué aprendí
+
 Componentes, inputs/outputs y comunicación entre componentes
 
 Formularios (template o reactivos) y validaciones
@@ -60,6 +61,7 @@ Routing básico en Angular
 
 Buenas prácticas de Git (commits atómicos y mensajes claros)
 
+
 ✨ Cambios personales (ejemplos)
 
 Refactor de nombres y organización de carpetas
@@ -68,9 +70,11 @@ Estilos propios en CSS
 
 Lenguaje
 
+
 📝 Nota
 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
+
 
 👤 Autor
 
