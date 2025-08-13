@@ -31,44 +31,44 @@ npm install
 ng serve
 # abre http://localhost:4200
 
-📜 Scripts útiles
+##📜 Scripts útiles
 
 ng serve         # dev server
 ng build         # build producción
 ng test          # unit tests (si están configurados)
 ng lint          # linting (si está configurado)
 
-🧱 Estructura (resumen)
+##🧱 Estructura (resumen)
 
 src/
+
  ├─ app/
+ 
  │   ├─ core/           # servicios (ContactService), modelos (Contact)
+ 
  │   ├─ features/       # componentes de listado / formulario
+ 
  │   ├─ shared/         # componentes y utilidades reutilizables
+ 
  │   └─ app.routes.ts   # routing básico
+ 
  └─ assets/             # imágenes, mock data
 
  
 ## 🧠 Qué aprendí
 
-Componentes, inputs/outputs y comunicación entre componentes
-
-Formularios (template o reactivos) y validaciones
-
-Servicios y separación de lógica
-
-Routing básico en Angular
-
-Buenas prácticas de Git (commits atómicos y mensajes claros)
+-Componentes, inputs/outputs y comunicación entre componentes
+-Formularios (template o reactivos) y validaciones
+-Servicios y separación de lógica
+-Routing básico en Angular
+-Buenas prácticas de Git (commits atómicos y mensajes claros)
 
 
 ## ✨ Cambios personales (ejemplos)
 
-Refactor de nombres y organización de carpetas
-
-Estilos propios en CSS
-
-Lenguaje
+-Refactor de nombres y organización de carpetas
+-Estilos propios en CSS
+-Lenguaje
 
 
 ## 📝 Nota
