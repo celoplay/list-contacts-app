@@ -13,30 +13,37 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
 - Búsqueda por nombre
 - Validaciones básicas de formulario
 
-## 🧰 Tecnologías
+##🧰 Tecnologías
 
 - Angular, TypeScript
 - HTML, CSS
 - Git
 
-## 📦 Requisitos
+##📦 Requisitos
 - Node 18+ (recomendado)
 - Angular
   
-## ▶️ Ejecución local
+##▶️ Ejecución local
 
 git clone https://github.com/celoplay/list-contacts-app
+
 cd list-contacts-app
+
 npm install
+
 ng serve
+
 # abre http://localhost:4200
 
 
 ##📜 Scripts útiles
 
 ng serve         # dev server
+
 ng build         # build producción
+
 ng test          # unit tests (si están configurados)
+
 ng lint          # linting (si está configurado)
 
 
@@ -57,7 +64,7 @@ src/
  └─ assets/             # imágenes, mock data
 
  
-## 🧠 Qué aprendí
+##🧠 Qué aprendí
 
 Componentes, inputs/outputs y comunicación entre componentes
 
