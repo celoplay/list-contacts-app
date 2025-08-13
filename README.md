@@ -39,7 +39,7 @@ ng serve
 # abre http://localhost:4200
 
 
-##📜 Scripts útiles
+## 📜 Scripts útiles
 
 ng serve         # dev server
 
@@ -50,7 +50,7 @@ ng test          # unit tests (si están configurados)
 ng lint          # linting (si está configurado)
 
 
-##🧱 Estructura (resumen)
+## 🧱 Estructura (resumen)
 
 src/
 
@@ -67,7 +67,7 @@ src/
  └─ assets/             # imágenes, mock data
 
  
-##🧠 Qué aprendí
+## 🧠 Qué aprendí
 
 Componentes, inputs/outputs y comunicación entre componentes
 
@@ -91,6 +91,7 @@ Lenguaje
 ## 📝 Nota
 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
+
 
 
 ## 👤 Autor
