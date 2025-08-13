@@ -28,68 +28,49 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
   
 ## ▶️ Ejecución local
 
-git clone https://github.com/celoplay/list-contacts-app
-
-cd list-contacts-app
-
-npm install
-
-ng serve
-
-# abre http://localhost:4200
+git clone https://github.com/celoplay/list-contacts-app<br>
+cd list-contacts-app<br>
+npm install<br>
+ng serve<br>
+Abre http://localhost:4200
 
 
 ## 📜 Scripts útiles
 
-ng serve         # dev server
-
-ng build         # build producción
-
-ng test          # unit tests (si están configurados)
-
+ng serve         # dev server<br>
+ng build         # build producción<br>
+ng test          # unit tests (si están configurados)<br>
 ng lint          # linting (si está configurado)
-
 
 ## 🧱 Estructura (resumen)
 
 src/
 
- ├─ app/
- 
- │   ├─ core/           # servicios (ContactService), modelos (Contact)
- 
- │   ├─ features/       # componentes de listado / formulario
- 
- │   ├─ shared/         # componentes y utilidades reutilizables
- 
- │   └─ app.routes.ts   # routing básico
- 
+ ├─ app/<br>
+ │   ├─ core/           # servicios (ContactService), modelos (Contact)<br>
+ │   ├─ features/       # componentes de listado / formulario<br>
+ │   ├─ shared/         # componentes y utilidades reutilizables<br>
+ │   └─ app.routes.ts   # routing básico<br>
  └─ assets/             # imágenes, mock data
 
  
 ## 🧠 Qué aprendí
 
-Componentes, inputs/outputs y comunicación entre componentes
-
-Formularios (template o reactivos) y validaciones
-
-Servicios y separación de lógica
-
-Routing básico en Angular
-
-Buenas prácticas de Git (commits atómicos y mensajes claros)
+-Componentes, inputs/outputs y comunicación entre componentes<br>
+-Formularios (template o reactivos) y validaciones<br>
+-Servicios y separación de lógica<br>
+-Routing básico en Angular<br>
+-Buenas prácticas de Git (commits atómicos y mensajes claros)
 
 ## ✨ Cambios personales (ejemplos)
 
-Refactor de nombres y organización de carpetas
-
-Estilos propios en CSS
-
-Lenguaje
+-Refactor de nombres y organización de carpetas<br>
+-Estilos propios en CSS<br>
+-Lenguaje<br>
 
 
 ## 📝 Nota
-Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
+Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  <br>
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
 
