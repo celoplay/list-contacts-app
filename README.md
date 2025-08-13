@@ -11,7 +11,6 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
 - Crear, editar y eliminar
 - Búsqueda por nombre
 - Validaciones básicas de formulario
-- (Opcional) Persistencia en `localStorage` o API mock (ver Roadmap)
 
 ## 🧰 Tecnologías
 - Angular, TypeScript
@@ -53,7 +52,6 @@ Componentes, inputs/outputs y comunicación entre componentes
 Formularios (template o reactivos) y validaciones
 Servicios y separación de lógica
 Routing básico en Angular
-
 Buenas prácticas de Git (commits atómicos y mensajes claros)
 
 ✨ Cambios personales (ejemplos)
@@ -62,14 +60,10 @@ Estilos propios en CSS
 Lenguaje
 
 📝 Nota
-
-Este repositorio forma parte de mi proceso de aprendizaje. Agradezco feedback o sugerencias.
+Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
+Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
 👤 Autor
-Marcelo Aizaga M. — Valencia, España
-GitHub: https://github.com/celoplay
+Marcelo Aizaga M. — Valencia, España.
+GitHub: https://github.com/celoplay.
 LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
-
-
-📚 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
-Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
