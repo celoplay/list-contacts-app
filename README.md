@@ -23,7 +23,7 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
 - Node 18+ (recomendado)
 - Angular
   
-▶️ Ejecución local
+## ▶️ Ejecución local
 
 git clone https://github.com/celoplay/list-contacts-app
 cd list-contacts-app
@@ -57,7 +57,7 @@ src/
  └─ assets/             # imágenes, mock data
 
  
-🧠 Qué aprendí
+## 🧠 Qué aprendí
 
 Componentes, inputs/outputs y comunicación entre componentes
 
@@ -69,7 +69,7 @@ Routing básico en Angular
 
 Buenas prácticas de Git (commits atómicos y mensajes claros)
 
-✨ Cambios personales (ejemplos)
+## ✨ Cambios personales (ejemplos)
 
 Refactor de nombres y organización de carpetas
 
