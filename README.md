@@ -64,6 +64,8 @@ Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 co
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
 👤 Autor
-Marcelo Aizaga M. — Valencia, España.
-GitHub: https://github.com/celoplay.
+Marcelo Aizaga M. — Valencia, España
+
+GitHub: https://github.com/celoplay
+
 LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
