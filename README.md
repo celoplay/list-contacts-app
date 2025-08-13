@@ -1,4 +1,7 @@
 # 📇 List Contacts App (Angular • Aprendizaje)
+[![Angular](https://img.shields.io/badge/Angular-Framework-informational)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-Language-informational)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
 Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **Angular + TypeScript**.  
 > Proyecto **didáctico** basado en material de curso, con **adaptaciones personales** para reforzar el aprendizaje.
