@@ -1,59 +1,72 @@
-# ListContactsApp
+# 📇 List Contacts App (Angular • Aprendizaje)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.6.
+Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **Angular + TypeScript**.  
+> Proyecto **didáctico** basado en material de curso, con **adaptaciones personales** para reforzar el aprendizaje.
 
-## Development server
+## 🚀 Funcionalidades
+- Listado de contactos
+- Crear, editar y eliminar
+- Búsqueda por nombre
+- Validaciones básicas de formulario
+- (Opcional) Persistencia en `localStorage` o API mock (ver Roadmap)
 
-To start a local development server, run:
+## 🧰 Tecnologías
+- Angular, TypeScript
+- HTML, CSS
+- Git
 
-```bash
+## 📦 Requisitos
+- Node 18+ (recomendado)
+- Angular
+  
+▶️ Ejecución local
+
+git clone https://github.com/celoplay/list-contacts-app
+cd list-contacts-app
+npm install
 ng serve
-```
+# abre http://localhost:4200
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📜 Scripts útiles
 
-## Code scaffolding
+ng serve         # dev server
+ng build         # build producción
+ng test          # unit tests (si están configurados)
+ng lint          # linting (si está configurado)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🧱 Estructura (resumen)
 
-```bash
-ng generate component component-name
-```
+src/
+ ├─ app/
+ │   ├─ core/           # servicios (ContactService), modelos (Contact)
+ │   ├─ features/       # componentes de listado / formulario
+ │   ├─ shared/         # componentes y utilidades reutilizables
+ │   └─ app.routes.ts   # routing básico
+ └─ assets/             # imágenes, mock data
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+ 
+🧠 Qué aprendí
+Componentes, inputs/outputs y comunicación entre componentes
+Formularios (template o reactivos) y validaciones
+Servicios y separación de lógica
+Routing básico en Angular
 
-```bash
-ng generate --help
-```
+Buenas prácticas de Git (commits atómicos y mensajes claros)
 
-## Building
+✨ Cambios personales (ejemplos)
+Refactor de nombres y organización de carpetas
+Estilos propios en CSS
+Lenguaje
 
-To build the project run:
+📝 Nota
 
-```bash
-ng build
-```
+Este repositorio forma parte de mi proceso de aprendizaje. Agradezco feedback o sugerencias.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+👤 Autor
+Marcelo Aizaga M. — Valencia, España
+GitHub: https://github.com/celoplay
+LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📚 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer  
+Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
