@@ -7,12 +7,14 @@ Aplicación de ejemplo para **gestión de contactos (CRUD)** desarrollada con **
 > Proyecto **didáctico** basado en material de curso, con **adaptaciones personales** para reforzar el aprendizaje.
 
 ## 🚀 Funcionalidades
+
 - Listado de contactos
 - Crear, editar y eliminar
 - Búsqueda por nombre
 - Validaciones básicas de formulario
 
 ## 🧰 Tecnologías
+
 - Angular, TypeScript
 - HTML, CSS
 - Git
@@ -49,14 +51,21 @@ src/
  
 🧠 Qué aprendí
 Componentes, inputs/outputs y comunicación entre componentes
+
 Formularios (template o reactivos) y validaciones
+
 Servicios y separación de lógica
+
 Routing básico en Angular
+
 Buenas prácticas de Git (commits atómicos y mensajes claros)
 
 ✨ Cambios personales (ejemplos)
+
 Refactor de nombres y organización de carpetas
+
 Estilos propios en CSS
+
 Lenguaje
 
 📝 Nota
